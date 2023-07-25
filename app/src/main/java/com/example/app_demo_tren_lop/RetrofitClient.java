@@ -11,7 +11,7 @@ import retrofit2.http.POST;
 
 public class RetrofitClient {
 
-    private static final String BASE_URL = "http://10.24.50.104:3000/";
+    private static final String BASE_URL = "http://192.168.11.109:3000/";
 
     public static NYManagerService getService() {
         Retrofit retrofit = new Retrofit.Builder()
